@@ -1,0 +1,18 @@
+#dance digest token 5602757659:AAHmbDMWM4iVQ9RTu79inwC3cCBTKqS361Q
+### make webhook to aws by Send POST request with json body
+POST https://api.telegram.org/bot5602757659:AAHmbDMWM4iVQ9RTu79inwC3cCBTKqS361Q/setWebhook
+Content-Type: application/json
+
+{
+  "url": "https://0y3zj4q265.execute-api.us-east-1.amazonaws.com/dev/webhook"
+}
+
+### make testing  webhook to webhook.site
+POST https://api.telegram.org/bot5602757659:AAHmbDMWM4iVQ9RTu79inwC3cCBTKqS361Q/setWebhook
+Content-Type: application/json
+
+{
+  "url": "https://webhook.site/beca672e-761c-4011-8ac1-bf90b26e89fc"
+}
+
+### api.telegram.org/915439217:AAH0oHdQQeIvL6BWzC27F7hkUgtGiXbDn5s/

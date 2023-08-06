@@ -1,0 +1,5 @@
+? Do you want to login/register to Serverless Dashboard? No
+
+? No AWS credentials found, what credentials do you want to use? Skip
+
+You can setup your AWS account later. More details available here: http://slss.io/aws-creds-setup

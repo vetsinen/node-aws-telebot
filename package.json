@@ -1,0 +1,42 @@
+{
+  "name": "node-aws-telebot",
+  "version": "1.0.0",
+  "description": "<!-- title: 'AWS NodeJS Example' description: 'This template demonstrates how to deploy a NodeJS function running on AWS Lambda using the traditional Serverless Framework.' layout: Doc framework: v3 platform: AWS language: nodeJS priority: 1 authorLink: 'https://github.com/serverless' authorName: 'Serverless, inc.' authorAvatar: 'https://avatars1.githubusercontent.com/u/13742415?s=200&v=4' -->",
+  "main": "handler00.js",
+  "dependencies": {
+    "abort-controller": "^3.0.0",
+    "buffer-alloc": "^1.2.0",
+    "buffer-alloc-unsafe": "^1.1.0",
+    "buffer-fill": "^1.0.0",
+    "debug": "^4.3.4",
+    "event-target-shim": "^5.0.1",
+    "mri": "^1.2.0",
+    "ms": "^2.1.2",
+    "node-fetch": "^2.6.8",
+    "p-timeout": "^4.1.0",
+    "safe-compare": "^1.1.4",
+    "sandwich-stream": "^2.0.2",
+    "telegraf": "^4.11.2",
+    "tr46": "^0.0.3",
+    "typegram": "^4.2.0",
+    "webidl-conversions": "^3.0.1",
+    "whatwg-url": "^5.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "local": "sls offline start",
+    "deploy": "sls deploy",
+    "logs": "sls logs --function processWebhook -t"
+  },
+  "keywords": [
+    "bot",
+    "events"
+  ],
+  "author": "vetsinen",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless": "^3.26.0",
+    "serverless-dotenv-plugin": "^4.0.2",
+    "serverless-offline": "^12.0.4"
+  }
+}

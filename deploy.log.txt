@@ -1,0 +1,2 @@
+dashboard: https://app.serverless.com/vetsinen/apps/node-aws-telebot/node-aws-telebot/dev/us-east-1
+endpoint: POST - https://0y3zj4q265.execute-api.us-east-1.amazonaws.com/dev/webhook
